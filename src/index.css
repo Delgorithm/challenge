@@ -1,0 +1,86 @@
+body {
+  background: #f1f1f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.firstExo {
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  max-width: 400px;
+}
+
+.firstExo > h1 {
+  padding-top: 0.2rem;
+  margin: 1rem;
+}
+
+.firstExo > section {
+  padding-top: 0.2rem;
+  margin: 1rem;
+}
+
+.star {
+  width: 20px;
+}
+
+.firstExo > section:nth-child(3) {
+  display: flex;
+  padding-top: 0.2rem;
+  margin: 1rem;
+}
+
+.firstExo > section:nth-child(4) > p {
+  font-size: 0.8rem;
+  color: #808080;
+  padding-top: 0.7rem;
+}
+
+.firstExo > section:nth-child(4) > span {
+  display: block;
+  height: 0.01rem;
+  width: 100%;
+  background-color: black;
+  margin: 1rem 0;
+}
+
+.myItems {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.myItems > p {
+  padding: 0.4rem;
+  background-color: #d4d4d4;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.myItems > p:hover {
+  opacity: 0.7;
+}
+
+.myItems > p:active {
+  transform: translateY(2px);
+}
+
+.firstExo > section:nth-child(4) > h4 {
+  color: rgb(139, 20, 139);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */

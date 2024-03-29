@@ -1,0 +1,38 @@
+[
+	{
+		"movie": {
+            "img": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?q=80&w=2956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"title": "Title",
+			"review": "4.5 (413)",
+			"secondTitle": "Secondary text",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor",
+			"subtitle": "Subtitle",
+			"action": "Action 1",
+			"star": "https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png",
+			"halfStar": "https://img.icons8.com/?size=512&id=19323&format=png"
+		},
+		"allItems": {
+			"firstItem": "Item 1",
+			"secondtItem": "Item 2",
+			"thirdItem": "Item 3",
+			"fourthItem": "Item 4"
+		}
+	},
+
+	{
+        "album": {
+            "title": "Rozes",
+            "name": "Under the Grave",
+            "date": "(2016)",
+            "rating": "Rate this album"
+        }
+	},
+
+    {
+        "form": {
+            "tag": "Habilitado",
+            "title": "Valores predeterminados en formulario",
+            "description": "Formulario de campos co valores predeterminados"
+        }
+    }
+]
