@@ -6,22 +6,21 @@ const FirstExercice = () => {
 	const allItems = data[0].allItems;
 
 	return (
-		<article className="firstExo">
+		<article className="firstCard">
 			<figure>
 				<img
 					src={movieData.img}
 					alt="Picture of movie production"
-					className="firstImg"
 				/>
 			</figure>
 			<h1>{movieData.title}</h1>
 			<section>
 				<figure>
-					<img src={movieData.star} alt="" className="star" />
-					<img src={movieData.star} alt="" className="star" />
-					<img src={movieData.star} alt="" className="star" />
-					<img src={movieData.star} alt="" className="star" />
-					<img src={movieData.halfStar} alt="" className="star" />
+					<img src={movieData.star} alt="Star's icon" className="star" />
+					<img src={movieData.star} alt="Star's icon" className="star" />
+					<img src={movieData.star} alt="Star's icon" className="star" />
+					<img src={movieData.star} alt="Star's icon" className="star" />
+					<img src={movieData.halfStar} alt="Star's icon" className="star" />
 				</figure>
 				<p>{movieData.review}</p>
 			</section>
